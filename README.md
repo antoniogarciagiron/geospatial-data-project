@@ -38,3 +38,5 @@ Train station: [52.47775090364966, -1.899928107174874]]
 
 The optimal location for the office is the centroid of the coordinates listed above: 
 Office: [52.47922821434622, -1.8988318511474938]
+
+![Map](https://github.com/antoniogarciagiron/geospatial-data-project/blob/main/figures/Birmingham.PNG)
