@@ -31,12 +31,16 @@ The project was divided in the following tasks:
 ## Results:
 
 The following coordinates correspond to the optimal combination of required places:
-Starbucks: [52.479158, -1.89932]
-School: [52.48083, -1.8973938]
-Pub: [52.47917395373524, -1.8986854974151004]
-Train station: [52.47775090364966, -1.899928107174874]]
+- Starbucks: [52.479158, -1.89932]
+- School: [52.48083, -1.8973938]
+- Pub: [52.47917395373524, -1.8986854974151004]
+- Train station: [52.47775090364966, -1.899928107174874]]
 
 The optimal location for the office is the centroid of the coordinates listed above: 
-Office: [52.47922821434622, -1.8988318511474938]
+- Office: [52.47922821434622, -1.8988318511474938]
 
 ![Map](https://github.com/antoniogarciagiron/geospatial-data-project/blob/main/figures/Birmingham.PNG)
+
+The office should be placed there, as that's the position wich has a closer Starbucks, school, train station and pub in the city, so welcome to Birmingham, by order of the Peaky Blinders!
+
+![PB](https://static2.abc.es/media/play/2019/08/26/peaky-blinders-k5eE--1024x512@abc.png)
