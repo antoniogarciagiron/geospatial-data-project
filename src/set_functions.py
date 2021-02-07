@@ -137,3 +137,13 @@ def get_optimal_combination(polygon):
             min_distance = separation
             closer_places = group
     return closer_places
+
+def get_centroid_place(closer_places):
+    lat=0
+    long=0
+    for place in closer_places:
+        lat += place[0]
+        long += place[1]
+    lat = lat/len(closer_places)
+    long = long/len(closer_places)
+    return [lat, long]

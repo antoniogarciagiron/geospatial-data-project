@@ -10,7 +10,7 @@ def get_the_map(closer_places, the_place, tags):
         loc = coordinates
         icon = Icon(color = "green",
                     prefix = "fa",
-                    icon ="home",
+                    icon ="flag",
                     icon_color ="black",
                     tooltip = tags[counter]
                     )
@@ -20,7 +20,7 @@ def get_the_map(closer_places, the_place, tags):
     loc = the_place
     icon_2 = Icon(color = "red",
                 prefix = "fa",
-                icon ="home",
+                icon ="space-shuttle",
                 icon_color ="black",
                 tooltip = "The place"
                 )
