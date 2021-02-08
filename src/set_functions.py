@@ -114,6 +114,33 @@ def all_combinations(final_list_1, final_list_2, final_list_3, final_list_4):
                     polygon.append(set_distances)
     return polygon
 
+#The following pair of functions can be used to find all the possible combinations between lists, in case we have a different number than 4.
+#I'm using the previous one, but I'm keeping this one in the project as well.
+
+def add_two_lists(list1, list2):
+    '''Takes 2 lits and combines all their elements
+    Takes: two lists
+    Returns: a list with all the possible combinations with elements from both lists
+    '''
+    res=[]
+    for item1 in list1:
+        for item2 in list2:
+            res.append(item1+[item2])
+    return res
+def n_list_combination(*args):
+    '''Takes n lits and combines all their elements
+    Takes: n lists
+    Returns: a list with all the possible combinations with elements from both lists
+    '''
+    vector = []
+    for item in args[0]:
+        vector.append([item])
+        result = vector
+    for item in args[1:]:
+        result = add_two_lists(result, item)
+    return result
+
+
 
 def get_optimal_combination(polygon):
     '''It takes a list with combinations of the coordinates of 4 places, calculates the 6 distances separating the 4 places (i.e, the perimeter and 2 diagonals) and sums them
